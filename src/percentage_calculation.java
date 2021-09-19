@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class percentage_calculation {
-    public static void main (String[] args){
+    public static void main (String_as_an_input[] args){
         System.out.println("Enter the marks of 5 subjects out of 100 ");
         Scanner sc = new Scanner(System.in);
         int sub1 = sc.nextInt();
