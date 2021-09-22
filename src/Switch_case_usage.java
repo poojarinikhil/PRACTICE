@@ -9,23 +9,12 @@ public class Switch_case_usage {
         if (num1>num2){
             System.out.println("Enter 1 to add, 2 to subtract,3 to multiply,4 to divide");
             int a= sc.nextInt();
-            switch(a){
-                case 1:
-                    System.out.println(num1+num2);
-                    break;
-                case 2:
-                    System.out.println(num1-num2);
-                    break;
-                case 3:
-                    System.out.println(num1*num2);
-                    break;
-                case 4:
-                    System.out.println(num1/num2);
-                    break;
-                default:
-                    System.out.println("please enter right input");
-
-
+            switch (a) {
+                case 1 -> System.out.println(num1 + num2);
+                case 2 -> System.out.println(num1 - num2);
+                case 3 -> System.out.println(num1 * num2);
+                case 4 -> System.out.println(num1 / num2);
+                default -> System.out.println("please enter right input");
             }
         }
     else {
