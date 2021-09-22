@@ -22,6 +22,8 @@ public class Switch_case_usage {
                 case 4:
                     System.out.println(num1/num2);
                     break;
+                default:
+                    System.out.println("please enter right input");
 
 
             }
