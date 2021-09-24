@@ -18,7 +18,7 @@ public class Switch_case_usage {
             }
         }
     else {
-            System.out.println("Please  follow the instruction");
+            System.out.println("Please follow the instruction");
         }
     }
 }
