@@ -11,7 +11,7 @@ public class percentage_calculation {
         int total= sub1+sub2+sub3+sub4+sub5;
         System.out.println(total);
         float percentage=total * 100 / 500;
-        System.out.print("The percentage is ");
+        System.out.print("The percentage is :");
         System.out.println(percentage);
 
     }
