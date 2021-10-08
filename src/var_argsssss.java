@@ -8,6 +8,6 @@ public class var_argsssss {
     }
     public static void main(String[] args) {
         System.out.println("The sum of 2,4,5 and 6 is: "+sum(2,4,5,6));
-        System.out.println("The sum without putting an input is "+sum());
+        System.out.println("The sum without putting an input is  "+sum());
     }
 }
