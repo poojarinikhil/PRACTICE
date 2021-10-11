@@ -1,11 +1,11 @@
 public class use_of_constructor {
     private int id;
     private String name;
-    public use_of_constructor(){
+    public use_of_constructor(){//this is default value this is similar to method overloading
         name = "default";
         id = 1;
     }
-    public use_of_constructor(String myname , int idno){
+    public use_of_constructor(String myname , int idno){ //this constructor overloading it using to assign default value
          name = myname ;
          id=idno;
     }
